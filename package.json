@@ -1,0 +1,25 @@
+{
+  "name": "local-pkg-manager",
+  "version": "1.0.0",
+  "description": "Get package manager of user",
+  "main": "dist/cli.js",
+  "bin": {
+    "getpkg": "dist/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "eslint": "^8.38.0"
+  },
+  "dependencies": {
+    "execa": "^7.1.1",
+    "typescript": "^5.0.4"
+  }
+}
