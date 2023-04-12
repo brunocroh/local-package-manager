@@ -2,24 +2,31 @@
   "name": "local-pkg-manager",
   "version": "1.0.0",
   "description": "Get package manager of user",
-  "main": "dist/cli.js",
-  "bin": {
-    "getpkg": "dist/cli.js"
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "default": "./dist/index.mjs"
+    }
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc"
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "build:watch": "tsup src/index.ts --format esm,cjs --dts --watch"
   },
-  "author": "",
-  "license": "ISC",
+  "types": "./dist/index.d.ts",
+  "author": "Bruno Pinheiro",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^18.15.11",
     "@typescript-eslint/eslint-plugin": "^5.57.1",
     "@typescript-eslint/parser": "^5.57.1",
-    "eslint": "^8.38.0"
+    "eslint": "^8.38.0",
+    "typescript": "^5.0.4"
   },
   "dependencies": {
     "execa": "^7.1.1",
-    "typescript": "^5.0.4"
+    "tsup": "^6.7.0"
   }
 }

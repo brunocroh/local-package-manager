@@ -18,5 +18,10 @@ export const commands = {
     yarn: "yarn",
     npm: "npx",
     pnpm: "pnpm exec"
+  },
+  ci: {
+    yarn: "yarn --frozen-lockfile",
+    npm: "npm ci",
+    pnpm: "CI=true pnpm install --frozen-lockfile"
   }
 }
