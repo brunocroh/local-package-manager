@@ -9,8 +9,10 @@
 <p align="center">
   Get package manager of user, and translate commands to him
 </p>
-
 <p align="center">
+ <a href="https://github.com/brunocroh/local-package-manager/blob/main/license">
+    <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="local-package-manager is released under the MIT license." />
+  </a>
   <a href="https://github.com/brunocroh/local-package-manager/pulls">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs welcome!" />
   </a>
