@@ -13,7 +13,7 @@ export function determinePackageManager() {
 }
 
 type PackageManager = {
-  name: PackageManagerS
+  name: PackageManagers
   version: string
 }
 
@@ -50,7 +50,7 @@ export async function getCommand(command: keyof typeof commands): Promise<string
     throw new Error('You need pass the command param')
   }
 
-  const packageManager = await getUserPackageManager()
+  const packageManager = await getPackageManager()
   const desiredCommand = commands[command][packageManager.name]
 
   if(!desiredCommand) return commands[command][PackageManagers.npm]
