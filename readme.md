@@ -47,22 +47,17 @@ console.log(packageManager);
 import { getCommand } from 'local-package-manager';
 
 const npxCommand = await getCommand('npx');
-console.log(`
-Your command execution failed, try running:
-${npxCommand} some-lib --example
+console.log(`try running: ${npxCommand} some-lib --example
 `);
 
 /* if user using pnpm */
-//=> Your command execution failed, try running:
-//=> pnpm exec some-lib --example
+//=> try running: pnpm exec some-lib --example
 
 /* if user using yarn */
-//=> Your command execution failed, try running:
-//=> yarn some-lib --example
+//=> try running: yarn some-lib --example
 
 /* if user using pnpm */
-//=> Your command execution failed, try running:
-//=> npx some-lib --example
+//=> try running: npx some-lib --example
 ```
 ## Maintainers
 
