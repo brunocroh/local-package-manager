@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Get package manager of user, and translate commands to him",
   "main": "dist/index.js",
+  "homepage": "https://github.com/brunocroh/local-package-manager",
   "module": "dist/index.mjs",
   "exports": {
     ".": {
