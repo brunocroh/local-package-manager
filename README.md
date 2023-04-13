@@ -33,6 +33,7 @@ npm install -D local-package-manager
 ## Usage
 
 ### Get the user package manager
+works with [yarn](https://classic.yarnpkg.com), [npm](https://docs.npmjs.com/), and [pnpm](https://pnpm.io/)
 ```js
 import { getPackageManager } from 'local-package-manager';
 
