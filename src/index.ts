@@ -13,11 +13,11 @@ export function determinePackageManager() {
 }
 
 type PackageManager = {
-  name: PackageManagers
+  name: PackageManagerS
   version: string
 }
 
-export async function getUserPackageManager(): Promise<PackageManager> {
+export async function getPackageManager(): Promise<PackageManager> {
   try {
     const packageManager = getFromENV(CommonEnvs.userAgent)
     const packageDetail = packageManager?.split(' ')[0]
