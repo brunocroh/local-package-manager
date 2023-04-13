@@ -1,6 +1,6 @@
 {
   "name": "local-package-manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get package manager of user, and translate commands to him",
   "main": "dist/index.js",
   "homepage": "https://github.com/brunocroh/local-package-manager",
