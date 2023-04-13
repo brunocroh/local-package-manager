@@ -10,7 +10,10 @@
   Get package manager of user, and translate commands to him
 </p>
 <p align="center">
- <a href="https://github.com/brunocroh/local-package-manager/blob/main/license">
+  <a href="https://badge.fury.io/js/local-package-manager">
+    <img src="https://badge.fury.io/js/local-package-manager.svg" alt="npm version" height="18">
+  </a>
+  <a href="https://github.com/brunocroh/local-package-manager/blob/main/license">
     <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="local-package-manager is released under the MIT license." />
   </a>
   <a href="https://github.com/brunocroh/local-package-manager/pulls">
