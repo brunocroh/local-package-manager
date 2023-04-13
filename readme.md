@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center">
-  <a href="https://github.com/brunocroh/local-package-manager/new/main?readme=1#usage">How To Use</a>
+  <a href="https://github.com/brunocroh/local-package-manager#usage">How To Use</a>
 </h4>
 
 <p align="center">
