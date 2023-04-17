@@ -19,7 +19,7 @@
   <a href="https://github.com/brunocroh/local-package-manager/pulls">
     <img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat" alt="PRs welcome!" />
   </a>
-  <a href="https://twitter.com/intent/follow?screen_name=brunocroh">
+  <a href="https://twitter.com/brunocroh">
     <img src="https://img.shields.io/twitter/follow/medusajs.svg?label=Contact%20me%20at%20@brunocroh" alt="Contact me at @brunocroh" />
   </a>
 </p>
