@@ -56,7 +56,7 @@ console.log(`try running: ${npxCommand} some-lib --example
 /* if user using yarn */
 //=> try running: yarn some-lib --example
 
-/* if user using pnpm */
+/* if user using npm */
 //=> try running: npx some-lib --example
 ```
 ## Maintainers
